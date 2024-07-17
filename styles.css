@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+.header-left {
+    font-size: 24px;
+}
+
+.header-right {
+    font-size: 20px;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+}
+
+li {
+    list-style-type: none;
+}
+.section 1 {
+    
+}
