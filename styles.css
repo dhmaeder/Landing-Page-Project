@@ -11,9 +11,11 @@ header {
 }
 
 header,
-.dadInfo {
+.DadInfo {
     background-color: #1f2937;
     color: white;
+    height: 150px;
+
 
 }
 
@@ -39,8 +41,19 @@ header,
 
 
 a {
-
     color: white;
     text-decoration: none;
     margin-right: 10px;
+}
+
+img {
+    width: 200px;
+    height: 125px;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+.DadInfo {
+    display: flex;
+    justify-content: space-between;
 }
