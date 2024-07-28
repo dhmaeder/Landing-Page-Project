@@ -80,12 +80,17 @@ font-weight: bold;
 
 .Quote {
 background-color: #e5e7eb;
-padding-left: 350px;
-padding-right: 350px;
+
 min-width: 150px;
-padding: 50px 350px 50px 350px;
+padding: 50px 350px 40px 350px;
 }
 
 .QuoteAuthor {
-
+text-align: right;
+font-style: italic;
+font-weight: bold;
+padding-right: 100px;
+padding-top: 10px;
+min-width: 150px;
 }
+
