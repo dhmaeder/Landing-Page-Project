@@ -57,3 +57,35 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+.answer {
+    font-size: 30px;
+text-align: center;
+}
+#randomInfoHeading {
+    text-align: center;
+    padding-top: 10px;
+}
+.randomInfo {
+display: flex;
+justify-content: space-evenly;
+}
+.card1, .card2, .card3, .card4 {
+text-align: center;
+border-style: solid;
+border-color: lightblue;
+font-size: 20px;
+font-weight: bold;
+}
+
+.Quote {
+background-color: #e5e7eb;
+padding-left: 350px;
+padding-right: 350px;
+min-width: 150px;
+padding: 50px 350px 50px 350px;
+}
+
+.QuoteAuthor {
+
+}
