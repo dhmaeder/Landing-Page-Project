@@ -1,28 +1,31 @@
 * {
     font-family: Arial, sans-serif;
 }
-
+.blue {
+    background-color: #1f2937;
+}
+.grey {
+background-color: #e5e7eb;
+margin: 0;
+}
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-}
-
-header,
-.DadInfo {
     background-color: #1f2937;
     color: white;
     height: 150px;
-
-
+    min-width: 3.5em;
+    /* padding: 25px 125px 25px 125px; */
+    margin: 25px 400px 25px 400px;
+    
 }
 
 .dadLogo {
     animation: blinker 3s linear infinite;
     color: yellow;
-    font-size: 50px;
+    font-size: 75px;
     margin-top: 100px;
 }
 
@@ -50,50 +53,67 @@ img {
     width: 200px;
     height: 125px;
     padding-top: 10px;
-    padding-right: 100px;
+    text-align: right;
+
+}
+
+#textwrap {
+    font-size: 20px;
 }
 
 .DadInfo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height: 150px;
+    /* padding: 25px 400px 25px 400px; */
+    margin: 25px 400px 25px 400px;
 }
 
 .answer {
     font-size: 30px;
-text-align: center;
+    text-align: center;
 }
+
 #randomInfoHeading {
     text-align: center;
     padding-top: 10px;
     text-decoration: underline;
     text-underline-offset: 0.3em;
 }
+
 .randomInfo {
-display: flex;
-justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
-.card1, .card2, .card3, .card4 {
-text-align: center;
-border-style: solid;
-border-color: lightblue;
-font-size: 20px;
-font-weight: bold;
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    text-align: center;
+    border-style: solid;
+    border-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .Quote {
-background-color: #e5e7eb;
-
-min-width: 150px;
-padding: 50px 350px 40px 350px;
+    background-color: #e5e7eb;
+    min-width: 150px;
+    /* padding: 50px 350px 40px 350px; */
+    margin: 25px 400px 25px 400px;
+    padding: 50px 0 40px 0;
 }
 
 .QuoteAuthor {
-text-align: right;
-font-style: italic;
-font-weight: bold;
-padding-right: 100px;
-padding-top: 10px;
-min-width: 150px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-top: 10px;
 }
 
 .CallToAction {
@@ -114,6 +134,6 @@ footer {
     text-align: center;
     background-color: #1f2937;
     color: white;
-padding-top: 20px;
-padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
